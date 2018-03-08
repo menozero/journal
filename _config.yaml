@@ -1,9 +1,12 @@
+
 title: menozero's journal
 
 author: menozero
 # email:
 
 twitter_username: menozero
+
+# theme:
 
 # markdown: kramdown
 kramdown:
@@ -19,7 +22,10 @@ relative_links:
   enabled:     true
   collections: false
 
+github:
+  - metadata
+
 exclude:
   - Gemfile
   - Gemfile.lock
-
+  - vendor
