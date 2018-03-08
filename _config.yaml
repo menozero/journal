@@ -1,0 +1,15 @@
+
+
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+relative_links:
+  enabled:     true
+  collections: false
