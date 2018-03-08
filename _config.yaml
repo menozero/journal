@@ -1,6 +1,11 @@
+title: menozero's journal
 
+author: menozero
+# email:
 
+twitter_username: menozero
 
+# markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: false
@@ -13,3 +18,8 @@ plugins:
 relative_links:
   enabled:     true
   collections: false
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
